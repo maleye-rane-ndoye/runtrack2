@@ -1,0 +1,35 @@
+
+
+body{
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+}
+.tableau-style{
+    border-collapse: collapse;
+    min-width: 400px;
+    width: auto;
+    box-shadow: 0 5px 50px rgba(0,0,0,0.15);
+    cursor: pointer;
+    margin: 10px auto;
+    /*border: 2px solid midnightblue;*/
+}
+thead th {
+    background-color: midnightblue;
+    color: white;
+    text-align: left;
+}
+th, td {
+    padding: 15px 20px;
+}
+tbody tr, th, td {
+   border: 1px solid #ddd;
+}
+tbody tr:nth-child(even){
+    background:#f3f3f3;
+}
+tbody tr:last-of-type{
+    border-bottom: 2px solid midnightblue;
+}
